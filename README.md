@@ -24,41 +24,41 @@ Each day the course will start at **14:00** and end at **20:00** (CET).
 ## Content of the course
 
 **Day 1**: Concepts review
-    - Presentation (E&O)
-    - Lecture 0	General Introduction / Overview of the Course []
-    - [General Introduction]<!--(slides/0_General_Introduction.pdf)-->
-    - Introduction to Genome-wide Prediction in Human genetics and Animal and Plant breeding. Breeding value vs Polygenic Risk Score. Factors affecting reliability of GWP. (E)
-    - Review of Quantitative genetics. (O)
-    - Linear mixed models. (O)
-    - Genotype imputation procedures (design the reference population).(E)
-    - Lab 1: imputation. (E)
+- Presentation (E&O)
+- Lecture 0	General Introduction / Overview of the Course []
+- [General Introduction]<!--(slides/0_General_Introduction.pdf)-->
+- Introduction to Genome-wide Prediction in Human genetics and Animal and Plant breeding. Breeding value vs Polygenic Risk Score. Factors affecting reliability of GWP. (E)
+- Review of Quantitative genetics. (O)
+- Linear mixed models. (O)
+- Genotype imputation procedures (design the reference population).(E)
+- Lab 1: imputation. (E)
 
 **Day 2**: Imputation
-    - The ‘Curse’ of Dimensionality in large p small n problems. Regularization and shrinkage estimation (O)
-    - Breakout-rooms: Design of analytical approaches. (E&O)
-    - Resemblance among relatives: Pedigree vs Genomic-based. (E). 
-    - Lab 2: building relationship matrices (E).
+- The ‘Curse’ of Dimensionality in large p small n problems. Regularization and shrinkage estimation (O)
+- Breakout-rooms: Design of analytical approaches. (E&O)
+- Resemblance among relatives: Pedigree vs Genomic-based. (E). 
+- Lab 2: building relationship matrices (E).
 
 **Day 3**: Kernel and Bayesian regression methods for GWP
-    - GBLUP and Kernel-based regression models. (E&O)
-    - Lab 3: (GBLUP,RKHS). 
-    - Bayesian alphabet (Methods on SNP regression). (O)
-    - Lab 4: (Bayes L).
-    - Review on post-Gibbs convergence and McMC chains inspection analysis. (E)
-    - Hands-on Post Gibbs (E&O)
+- GBLUP and Kernel-based regression models. (E&O)
+- Lab 3: (GBLUP,RKHS). 
+- Bayesian alphabet (Methods on SNP regression). (O)
+- Lab 4: (Bayes L).
+- Review on post-Gibbs convergence and McMC chains inspection analysis. (E)
+- Hands-on Post Gibbs (E&O)
 
 **Day 4**: Machine Learning methods for GWP
-    - Predictive ability metrics: MSE, Pearson and Spearman correlations, AUC-ROC curves. (E)
-    - Cross validation strategies
-    - Machine Learning (Advantages and disadvantages). (O)
-    - Random Forest (O)
-    - Lab 5: RanFog (O)
-    - Boosting (O)
-    - Lab 6: RanBoost(O)
-    - Other ML approaches and wrap up. (O)
+- Predictive ability metrics: MSE, Pearson and Spearman correlations, AUC-ROC curves. (E)
+- Cross validation strategies
+- Machine Learning (Advantages and disadvantages). (O)
+- Random Forest (O)
+- Lab 5: RanFog (O)
+- Boosting (O)
+- Lab 6: RanBoost(O)
+- Other ML approaches and wrap up. (O)
 
 **Day 5**: Practical session
-    - Build your own Genome-enabled prediction. Breakout rooms
+- Build your own Genome-enabled prediction. Breakout rooms
         Imputation
         Determine your predictive accuracy (internal)
         Hackathon: Predict yet-to-be observed phenotypes
