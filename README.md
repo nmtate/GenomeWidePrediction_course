@@ -1,9 +1,3 @@
-# build setting
-remote_theme: pages-themes/architect@v0.2.0
-
- ##remote_theme: THEME-NAME
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # GENOME-WIDE PREDICTION OF COMPLEX TRAITS IN HUMANS, PLANTS AND ANIMALS
 
@@ -11,7 +5,7 @@ plugins:
 
 Instructors: *Evangelina Lopez de Maturana, Oscar Gonzalez-Recio, *
 
-This course will introduce students, 
+This course will introduce students to perform prediction of complex traits using genomic information. 
 Each day the course will start at **14:00** and end at **20:00** (CET).
 
 <!-- timetable: [here](https://docs.google.com/spreadsheets/d/1Cy8vBD6I_no8UPzYPU9bz7ASWyI3bc4Y9vcdr5S1TBw/edit#gid=0) -->
@@ -19,8 +13,38 @@ Each day the course will start at **14:00** and end at **20:00** (CET).
 
 ## Organization of the Code for the practical Sessions
 
-1. preparatory_steps: 
+## Preparatory_steps: 
+For computing, we will use our EC2 AWS cloud, where most of the software needed for this course are already installed.
 
+You will, therefore, only need a few applications installed on your laptop:
+ SSH client
+ Windows: [MobaXterm](https://mobaxterm.mobatek.net/download.html)
+
+ Mac/Linux: not required, terminal should be installed as standard
+ 
+ FTP client - transfers files to/from the server
+ Windows/Mac/Linux -[Filezilla Client](https://filezilla-project.org/download.php?type=client)
+
+This is my recommendation but any FTP client should be fine, including Mac/Linux built-in
+
+Please make sure that you have installed on your laptop [R](https://cran.r-project.org/) and [RStudio](https://www.rstudio.com/products/rstudio/download/#download)
+
+Once you have R and R Studio installed on your laptop, please install this list of packages using this command:
+```
+ rpkgs<-c("BGLR", "snpReady", "data.table", "pheatmap", "rsample", "coda", "ggplot2", "ROCR", "tidyverse", "rmarkdown","knitr", "pander")
+ install.packages(rpkgs)
+```
+
+It is likely that when you install snpReady you get a message saying that ‘impute’ R package is necessary. You can install it as follows.
+
+ if (!require("BiocManager", quietly = TRUE))
+ install.packages("BiocManager")
+ BiocManager::install("impute")
+
+The ultimate check whether a package installation was successful is to load the package into your R session via:
+
+ > library(<packagename>)
+ #eg library(ggplot2)
 
 ## Content of the course
 
@@ -64,3 +88,9 @@ Each day the course will start at **14:00** and end at **20:00** (CET).
         Determine your predictive accuracy (internal)
         Hackathon: Predict yet-to-be observed phenotypes
 
+## build setting
+remote_theme: pages-themes/architect@v0.2.0
+
+ ###remote_theme: THEME-NAME
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
