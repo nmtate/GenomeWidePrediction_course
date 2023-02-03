@@ -1,0 +1,9 @@
+theme: jekyll-theme-minimal #(others: hacker)
+plugins:
+  - jekyll-relative-links
+  - jekyll-readme-index
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
