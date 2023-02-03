@@ -1,3 +1,9 @@
+## build setting
+remote_theme: pages-themes/architect@v0.2.0
+
+ ###remote_theme: THEME-NAME
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # GENOME-WIDE PREDICTION OF COMPLEX TRAITS IN HUMANS, PLANTS AND ANIMALS
 
@@ -87,9 +93,3 @@ The ultimate check whether a package installation was successful is to load the 
         Determine your predictive accuracy (internal)
         Hackathon: Predict yet-to-be observed phenotypes
 
-## build setting
-remote_theme: pages-themes/architect@v0.2.0
-
- ###remote_theme: THEME-NAME
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
