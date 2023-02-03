@@ -1,6 +1,6 @@
 ## build setting
 #remote_theme: pages-themes/architect@v0.2.0
-theme: minima
+theme: minimal
 
 # GENOME-WIDE PREDICTION OF COMPLEX TRAITS IN HUMANS, PLANTS AND ANIMALS
 
