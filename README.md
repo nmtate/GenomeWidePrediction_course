@@ -1,6 +1,4 @@
 
-# GENOME-WIDE PREDICTION OF COMPLEX TRAITS IN HUMANS, PLANTS AND ANIMALS
-
 **Material for the Course "GENOME-WIDE PREDICTION OF COMPLEX TRAITS IN HUMANS, PLANTS AND ANIMALS (GWP)"**
 
 Instructors: *Evangelina Lopez de Maturana, Oscar Gonzalez-Recio, *
