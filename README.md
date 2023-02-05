@@ -8,9 +8,6 @@ Each day the course will start at **14:00** and end at **20:00** (CET).
 
 <!-- timetable: [here](https://docs.google.com/spreadsheets/d/1Cy8vBD6I_no8UPzYPU9bz7ASWyI3bc4Y9vcdr5S1TBw/edit#gid=0) -->
 
-
-## Organization of the code for the practical Sessions
-
 ## Preparatory_steps: 
 For computing, we will use our EC2 AWS cloud, where most of the software needed for this course are already installed.
 
@@ -86,3 +83,4 @@ The ultimate check whether a package installation was successful is to load the 
         Determine your predictive accuracy (internal)
         Hackathon: Predict yet-to-be observed phenotypes
 
+## Organization of the code for the practical Sessions
