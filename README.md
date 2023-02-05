@@ -11,7 +11,7 @@ Each day the course will start at **14:00** and end at **20:00** (CET).
 <!-- timetable: [here](https://docs.google.com/spreadsheets/d/1Cy8vBD6I_no8UPzYPU9bz7ASWyI3bc4Y9vcdr5S1TBw/edit#gid=0) -->
 
 
-## Organization of the Code for the practical Sessions
+## Organization of the code for the practical Sessions
 
 ## Preparatory_steps: 
 For computing, we will use our EC2 AWS cloud, where most of the software needed for this course are already installed.
@@ -36,10 +36,11 @@ Once you have R and R Studio installed on your laptop, please install this list 
 ```
 
 It is likely that when you install snpReady you get a message saying that ‘impute’ R package is necessary. You can install it as follows.
-
+```
  if (!require("BiocManager", quietly = TRUE))
  install.packages("BiocManager")
  BiocManager::install("impute")
+```
 
 The ultimate check whether a package installation was successful is to load the package into your R session via:
 
