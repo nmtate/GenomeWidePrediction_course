@@ -1,4 +1,4 @@
-# Introduction to genome-wide prediction 
+# Genome-wide_prediction 
 
 **Material for the Course "GENOME-WIDE PREDICTION OF COMPLEX TRAITS IN HUMANS, PLANTS AND ANIMALS (GWP)"**
 
