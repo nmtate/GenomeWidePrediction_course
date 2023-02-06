@@ -1,0 +1,55 @@
+#cp the data in /home/ubuntu/Share/Day1 folder and its content in my home
+cp -r Share/Day1/ .
+
+cd Day1/
+ls -l
+
+#take a look at the files
+head data/training.map #chr snp_id position
+cut -d' ' -f1-10 data/training_tobeimputed.ped |head #Family ID, Individual ID, Paternal ID, Maternal ID , Sex , Phenotype, SNP1_REF, SNP1_ALT, SNP2_REF, SNP2_REF...
+
+#Transforming .ped and .map files into vcf (required by Beagle)
+plink  --file data/training_tobeimputed --recode vcf --out data/training
+
+#List of the files that were generated
+ls -l data
+
+# training.log and training.vcf files were generated. Check the log file for any warning
+#inspect vcf file 
+head -12 data/training.vcf #Lin 10: #CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO    FORMAT  9_sample1 ...
+
+
+#Running Beagle 5.1 to phase the genotypes in the reference panel
+java -Xss5m -Xmx4g -jar beagle.18May20.d20.jar gt=data/training.vcf out=data/training_ref
+#list the files
+ls -l data
+# Two files were generated: training_ref.vcf.gz and training_ref.log
+#Inspecting the first lines of the phased vcf file 
+zcat data/training_ref.vcf.gz |head -12
+
+#Transforming .ped and .map files of the target population into vcf (required by Beagle)
+plink  --file data/testing_tobeimputed --recode vcf --out data/testing_tobeimputed
+
+#List of the files that were generated
+ls -l data
+
+#Two files were generated testing_tobeimputed.vcf and testing_tobeimputed.log
+
+
+#Running Beagle 5.1 to impute missing genotypes in the target population using the reference panel
+java -Xss5m -Xmx4g -jar  beagle.18May20.d20.jar  gt=data/testing_tobeimputed.vcf ref=data/training_ref.vcf.gz out=data/testing_imputed
+
+#List of the files that were generated
+ls -l data
+
+#Two files were generated testing_imputed.vcf.gz and testing_imputed.log
+
+#Inspecting the first lines of the phased vcf file 
+zcat data/testing_imputed.vcf.gz |head -12
+
+#transforming the vcf file (output from Beagle) into a dosage file
+plink --vcf data/testing_imputed.vcf.gz --recode A --out data/testing_imputed_dosage
+
+#
+ls -l
+#three files were generated:  testing_imputed_dosage.log, testing_imputed_dosage.nosex, testing_imputed_dosage.raw (the dosage file)
