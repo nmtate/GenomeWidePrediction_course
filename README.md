@@ -2,7 +2,7 @@
 
 **Material for the Course "GENOME-WIDE PREDICTION OF COMPLEX TRAITS IN HUMANS, PLANTS AND ANIMALS (GWP)"**
 
-Instructors: *Evangelina Lopez de Maturana, Oscar Gonzalez-Recio, *
+Instructors: **Evangelina Lopez de Maturana**, **Oscar Gonzalez-Recio**
 
 This course will introduce students to perform prediction of complex traits using genomic information. 
 Each day the course will start at **14:00** and end at **20:00** (CET).
