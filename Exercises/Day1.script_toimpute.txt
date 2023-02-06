@@ -5,7 +5,7 @@ cd Day1/
 ls -l
 
 #take a look at the files
-head data/training.map #chr snp_id position
+head data/training_tobeimputed.map #chr snp_id position
 cut -d' ' -f1-10 data/training_tobeimputed.ped |head #Family ID, Individual ID, Paternal ID, Maternal ID , Sex , Phenotype, SNP1_REF, SNP1_ALT, SNP2_REF, SNP2_REF...
 
 #Transforming .ped and .map files into vcf (required by Beagle)
