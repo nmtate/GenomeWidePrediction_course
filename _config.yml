@@ -1,5 +1,5 @@
 markdown: kramdown
-theme: minima
+theme: minimal
 
 #theme: jekyll-theme-minimal #(others: hacker)
 #plugins:
