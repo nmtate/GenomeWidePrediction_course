@@ -50,7 +50,7 @@ The ultimate check whether a package installation was successful is to load the 
 - General Introduction / Overview of the Course [General Introduction]<!--(slides/0_General_Introduction.pdf)-->
 - Introduction to Genome-wide Prediction in Human genetics and Animal and Plant breeding. Breeding value vs Polygenic Risk Score. Factors affecting reliability of GWP. (E). [Slides]<!--(slides/.pdf)-->
 - Review of Quantitative genetics. [Slides](slides/Day1.Review_Quantitative_Genetics.pdf)
-- Linear mixed models. [Slides](Day1.Linear_Mixed_Models)
+- Linear mixed models. [Slides](slides/Day1.Linear_Mixed_Models)
 - Genotype imputation procedures (design the reference population).(E)
 - Lab 1: imputation. (E)
 
@@ -87,4 +87,4 @@ The ultimate check whether a package installation was successful is to load the 
 ## Organization of the code for the practical Sessions
 **Day 1**
  - [Code](Exercises/Day1.Exercise_Infinitesimal_Model.R) example to show the infinitesimal model
- - [Exercise](Day1.SolveGSRU.R) on solving equations using residual updates.
+ - [Exercise](Exercises/Day1.SolveGSRU.R) on solving equations using residual updates.
