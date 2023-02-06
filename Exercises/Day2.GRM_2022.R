@@ -8,6 +8,7 @@ library('snpReady')
 library(pheatmap)
 
 #loading the file with the SNP genotypes
+#set the working directory
 workdir = 'C:/Users/melopezdm/OneDrive - Centro Nacional de Investigaciones Oncol?gicas/Physalia_2023/practical_sessions/Day2/GRM/'
 setwd(workdir)
 data <- read.table('./data/data.txt',header=F)
