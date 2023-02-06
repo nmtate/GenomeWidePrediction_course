@@ -51,8 +51,8 @@ The ultimate check whether a package installation was successful is to load the 
 - Introduction to Genome-wide Prediction in Human genetics and Animal and Plant breeding. Breeding value vs Polygenic Risk Score. Factors affecting reliability of GWP. (E). [Slides](slides/Day1.IntroductiontoGWPinHGandAandPbreeding2023.pdf)
 - Review of Quantitative genetics. [Slides](slides/Day1.Review_Quantitative_Genetics.pdf)
 - Linear mixed models. [Slides](slides/Day1.Linear_Mixed_Models.pdf)
-- Genotype imputation procedures (design the reference population).(E)
-- Lab 1: imputation. (E)
+- Genotype imputation procedures (design the reference population). [Slides]()
+- Lab 1: imputation. [code](Exercises/Day1.script_toimpute.txt)
 
 **Day 2**: Imputation
 - The ‘Curse’ of Dimensionality in large p small n problems. Regularization and shrinkage estimation (O)
@@ -88,3 +88,4 @@ The ultimate check whether a package installation was successful is to load the 
 **Day 1**
  - [Code](Exercises/Day1.Exercise_Infinitesimal_Model.R) example to show the infinitesimal model
  - [Exercise](Exercises/Day1.SolveGSRU.R) on solving equations using residual updates.
+ - [Imputation](Exercises/Day1.script_toimpute.txt)
