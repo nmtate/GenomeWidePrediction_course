@@ -1,5 +1,5 @@
-#cp the data in /home/ubuntu/Share/Day1 folder and its content in my home
-cp -r Share/Day1/ .
+#cp the data in /home/ubuntu/Share/Practical_sessions/Day1 folder and its content in my home
+cp -r Share/Practical_sessions/Day1/ .
 
 cd Day1/
 ls -l
