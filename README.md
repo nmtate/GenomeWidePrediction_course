@@ -52,7 +52,7 @@ The ultimate check whether a package installation was successful is to load the 
 - Review of Quantitative genetics. [Slides](slides/Day1.Review_Quantitative_Genetics.pdf)
 - Linear mixed models. [Slides](slides/Day1.Linear_Mixed_Models.pdf)
 - Genotype imputation procedures (design the reference population). [Slides](slides/Day1.Genotypeimputation.pdf)
-- Lab 1: imputation. [code](Exercises/Day1.script_toimpute.txt)
+- Lab 1: imputation. [code](Exercises/Day1.script_toimpute.txt) [data](data/day1/)
 
 **Day 2**: Imputation
 - The ‘Curse’ of Dimensionality in large p small n problems. Regularization and shrinkage estimation. [Slides](slides/Day2.CurseOfDimensionality.pdf)
