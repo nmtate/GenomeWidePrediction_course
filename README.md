@@ -57,7 +57,7 @@ The ultimate check whether a package installation was successful is to load the 
 **Day 2**: Imputation
 - The ‘Curse’ of Dimensionality in large p small n problems. Regularization and shrinkage estimation. [Slides](slides/Day2.CurseOfDimensionality.pdf)
 - Breakout-rooms: Design of analytical approaches. (E&O)
-- Resemblance among relatives: Pedigree vs Genomic-based. (E). 
+- Resemblance among relatives: Pedigree vs Genomic-based. (E). [Slides](slides/Day2.Resemblance among relatives2023.pdf)
 - Lab 2: building relationship matrices (E). [code](Exercises/Day2.GRM_2022.R)
 
 **Day 3**: Kernel and Bayesian regression methods for GWP
