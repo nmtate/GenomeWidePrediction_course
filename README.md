@@ -63,7 +63,7 @@ The ultimate check whether a package installation was successful is to load the 
 **Day 3**: Kernel and Bayesian regression methods for GWP
 - GBLUP and Kernel-based regression models. (E) [Slides](slides/Day3.GBLUPandkernel-basedmodels2023.pdf)
 - Lab 3: (GBLUP,RKHS). [meta_data](data/day3/meta_data.txt) [testing_data](data/day3/testing.txt) [BGLR_VanRaden](Exercises/Day3.BGLR_VanRaden_GA.R) [BGLR_UAR](Exercises/Day3.BGLR_UAR.R) [BGLR_UARadj](Exercises/Day3.BGLR_UARadj.R) [BGLR_Gaussian](Exercises/Day3.BGLR_Gaussian.R)
-- Bayesian alphabet (Methods on SNP regression). (O)
+- Bayesian alphabet (Methods on SNP regression). (O) [Slides](slides/Day3.Bayesianalphabet.pdf)
 - Lab 4: (Bayes L).
 - Review on post-Gibbs convergence and McMC chains inspection analysis. (E) [Slides](slides/Day3.PostGibbs.pdf)
 - Hands-on Post Gibbs (E) [code_toyGS](Exercises/Day3.Simple_example_GS1.R) [code_postGibbs](Exercises/Day3.PostGibbs.R)
