@@ -89,6 +89,7 @@ The ultimate check whether a package installation was successful is to load the 
  - [Code](Exercises/Day1.Exercise_Infinitesimal_Model.R) example to show the infinitesimal model
  - [Exercise](Exercises/Day1.SolveGSRU.R) on solving equations using residual updates.
  - [Imputation](Exercises/Day1.script_toimpute.txt)
+ 
 **Day 3**
  - [Bayesian Lasso](https://github.com/ogrecio/BLasso)
  
