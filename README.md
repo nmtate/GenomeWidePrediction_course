@@ -87,6 +87,7 @@ The ultimate check whether a package installation was successful is to load the 
  - Imputation
  - Determine your predictive accuracy (internal), with different methods/models
  - Predict yet-to-be observed phenotypes with your preferred method(s)
+ - submit results to instructors for final check
 
 ## Organization of the code for the practical Sessions
  
