@@ -90,8 +90,8 @@ The ultimate check whether a package installation was successful is to load the 
  - [Exercise](Exercises/Day1.SolveGSRU.R) on solving equations using residual updates.
  - [Imputation](Exercises/Day1.script_toimpute.txt)
 **Day 3**
- [Bayesian Lasso](https://github.com/ogrecio/BLasso)
+ - [Bayesian Lasso](https://github.com/ogrecio/BLasso)
  
 **Day 4**
- [RanFog](https://github.com/ogrecio/RanFog)
- [RanBoost](https://github.com/ogrecio/RanBoost)
+ - [RanFog](https://github.com/ogrecio/RanFog)
+ - [RanBoost](https://github.com/ogrecio/RanBoost)
