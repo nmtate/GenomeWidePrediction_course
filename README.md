@@ -69,8 +69,8 @@ The ultimate check whether a package installation was successful is to load the 
 - Hands-on Post Gibbs (E) [code_toyGS](Exercises/Day3.Simple_example_GS1.R) [code_postGibbs](Exercises/Day3.PostGibbs.R)
 
 **Day 4**: Machine Learning methods for GWP
-- Predictive ability metrics: MSE, Pearson and Spearman correlations, AUC-ROC curves. (E)
-- Cross validation strategies
+- Predictive ability metrics: MSE, Pearson and Spearman correlations, AUC-ROC curves. (E) [Slides](slides/Day4.Predictiveabilitymetrics.pdf) [data](data/day4/labels_obs.txt) [code_AUC](Exercises/Day4.AUC.R) [code_Metrics](Exercises/Day4.Metrics.R)
+- Cross validation strategies (E) [Slides](slides/Day4.Cross-validationstrategies2023.pdf) [data](data/day4/meta_data.txt) [code_CV](Exercises/Day4.CV.R) 
 - Machine Learning (Advantages and disadvantages). (O)
 - Random Forest (O)
 - Lab 5: RanFog (O)
