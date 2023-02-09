@@ -81,7 +81,7 @@ The ultimate check whether a package installation was successful is to load the 
 **Day 5**: Practical session
 - Build your own Genome-enabled prediction. Breakout rooms
  
- This is your [reference population](), and these are the [candidate individuals]() to predict their genomic value.
+ This is your [reference population](data/hackathon/training_hack.ped) and the corresponding [map file](data/hackathon/training_hack.map), and these are the [candidate individuals](data/hackathon/testing_hack.ped) and [SNP map file](data/hackathon/testing_hack.map) to predict their genomic value.
  
  Hackathon steps:
  - Imputation
