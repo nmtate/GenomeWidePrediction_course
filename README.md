@@ -80,9 +80,15 @@ The ultimate check whether a package installation was successful is to load the 
 
 **Day 5**: Practical session
 - Build your own Genome-enabled prediction. Breakout rooms
+ 
+ This is your [reference population] (), and these are the [candidate individuals] () to predict their genomic value.
+ 
+ Hackathon steps:
         Imputation
+ 
         Determine your predictive accuracy (internal)
-        Hackathon: Predict yet-to-be observed phenotypes
+ 
+        Predict yet-to-be observed phenotypes
 
 ## Organization of the code for the practical Sessions
 **Day 1**
