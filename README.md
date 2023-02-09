@@ -71,11 +71,11 @@ The ultimate check whether a package installation was successful is to load the 
 **Day 4**: Machine Learning methods for GWP
 - Predictive ability metrics: MSE, Pearson and Spearman correlations, AUC-ROC curves. (E) [Slides](slides/Day4.Predictiveabilitymetrics.pdf) [data](data/day4/labels_obs.txt) [code_AUC](Exercises/Day4.AUC.R) [code_Metrics](Exercises/Day4.Metrics.R)
 - Cross validation strategies (E) [Slides](slides/Day4.Cross-validationstrategies2023.pdf) [data](data/day4/meta_data.txt) [code_CV](Exercises/Day4.CV.R) 
-- Machine Learning (Advantages and disadvantages). (O)
+- Machine Learning (Advantages and disadvantages). [Slides](slides/Day4.MachineLearning.pdf)(O)
 - Random Forest (O)
-- Lab 5: RanFog (O)
+- Lab 5: [RanFog](https://github.com/ogrecio/RanFog) (O)
 - Boosting (O)
-- Lab 6: RanBoost(O)
+- Lab 6: [RanBoost](https://github.com/ogrecio/RanBoost)(O)
 - Other ML approaches and wrap up. (O)
 
 **Day 5**: Practical session
@@ -89,3 +89,9 @@ The ultimate check whether a package installation was successful is to load the 
  - [Code](Exercises/Day1.Exercise_Infinitesimal_Model.R) example to show the infinitesimal model
  - [Exercise](Exercises/Day1.SolveGSRU.R) on solving equations using residual updates.
  - [Imputation](Exercises/Day1.script_toimpute.txt)
+**Day 3**
+ [Bayesian Lasso](https://github.com/ogrecio/BLasso)
+ 
+**Day 4**
+ [RanFog](https://github.com/ogrecio/RanFog)
+ [RanBoost](https://github.com/ogrecio/RanBoost)
