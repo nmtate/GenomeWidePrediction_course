@@ -1,0 +1,22 @@
+#Filter genotypes in training set
+
+#impute testing data using the training as reference
+
+#Convert files to dosage
+
+#Split the training set in n folds
+nfolds=5
+
+#perform n fold CV in training set
+for fold in {1..$nfolds}
+do
+apply method in each fold and check predictive ability
+
+done
+
+#Change the method or try different hyperparameters, and check the predictive ability again
+
+#Select the method with best correlation or PMSE in the CV
+
+#Use the selected method on the training set to predict data in testing set.
+
