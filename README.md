@@ -61,7 +61,7 @@ The ultimate check whether a package installation was successful is to load the 
 - Lab 2: building relationship matrices (E). [code](Exercises/Day2.GRM_2022.R)  [data](data/day2/data.txt) 
 
 **Day 3**: Kernel and Bayesian regression methods for GWP
-- GBLUP and Kernel-based regression models. (E) [Slides](slides/Day3.GBLUPandkernel-basedmodels2023.pdf)
+- GBLUP and Kernel-based regression models. (E) [Slides](slides/Day3.GBLUPandkernel-basedmodels2024.pdf)
 - Lab 3: (GBLUP,RKHS). [meta_data](data/day3/meta_data.txt) [testing_data](data/day3/testing.txt) [BGLR_VanRaden](Exercises/Day3.BGLR_VanRaden_GA.R) [BGLR_UAR](Exercises/Day3.BGLR_UAR.R) [BGLR_UARadj](Exercises/Day3.BGLR_UARadj.R) [BGLR_Gaussian](Exercises/Day3.BGLR_Gaussian.R)
 - Bayesian alphabet (Methods on SNP regression). (O) [Slides](slides/Day3.Bayesianalphabet.pdf)
 - Lab 4: [Bayesian Lasso](https://github.com/ogrecio/BLasso)
