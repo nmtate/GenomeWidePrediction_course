@@ -11,10 +11,3 @@ j=seq(1,2*k,1)
 #C(2K,J)=(1/2)**2K * (2K)!/(J!(2K-J)!)
 freq<-0.5**(2*k)*factorial(2*k)/(factorial(j)*factorial(2*k-j))
 plot(j,freq,type="b",xlab="Number of A alleles",ylab="density")
-
-#Now assume random allele frequencies (p):
-p<-runif(k)
-freq<-prod(p)*prod(1-p)*factorial(2*k)/(factorial(j)*factorial(2*k-j))
-plot(j,freq,type="b",xlab="Number of A alleles",ylab="density")
-
-
