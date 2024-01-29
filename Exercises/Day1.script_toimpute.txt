@@ -1,5 +1,5 @@
-#cp the data in /home/ubuntu/Share/Practical_sessions/Day1 folder and its content in my home
-cp -r Share/Practical_sessions/Day1/ .
+#cp the data in /home/ubuntu/Day1 folder and its content in my home
+cp -r Share/Day1/ .
 
 cd Day1/
 ls -l
@@ -51,5 +51,5 @@ zcat data/testing_imputed.vcf.gz |head -12
 plink --vcf data/testing_imputed.vcf.gz --recode A --out data/testing_imputed_dosage
 
 #
-ls -l
+ls -l data
 #three files were generated:  testing_imputed_dosage.log, testing_imputed_dosage.nosex, testing_imputed_dosage.raw (the dosage file)
