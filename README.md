@@ -49,7 +49,7 @@ The ultimate check whether a package installation was successful is to load the 
 - Presentation (E&O)
 - General Introduction / Overview of the Course [General Introduction]<!--(slides/0_General_Introduction.pdf)-->
 - Introduction to Genome-wide Prediction in Human genetics and Animal and Plant breeding. Breeding value vs Polygenic Risk Score. Factors affecting reliability of GWP. (E). [Slides](slides/Day1.IntroductiontoGWPinHGandAandPbreeding2024.pdf)
-- Review of Quantitative genetics. [Slides](slides/Day1.Review_Quantitative_Genetics.pdf)
+- Review of Quantitative genetics. Overview of Reference Populations. [Slides](slides/Day1.Review_Quantitative_Genetics.pdf)
 - Linear mixed models. [Slides](slides/Day1.Linear_Mixed_Models.pdf)
 - Genotype imputation procedures (design the reference population). [Slides](slides/Day1.Genotypeimputation.pdf)
 - Lab 1: imputation. [code](Exercises/Day1.script_toimpute.txt) [training.ped](data/day1/training_tobeimputed.ped) [training.map](data/day1/training_tobeimputed.map) [testing.ped](data/day1/testing_tobeimputed.ped) [testing.map](data/day1/testing_tobeimputed.map) 
